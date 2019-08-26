@@ -1,17 +1,80 @@
 # Site settings
-title: Mauricio Urraco
-description: Jekyll Theme Minimal Resume
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+title: Devfest Fsa 2019
+description: Maior evento de desenvolvedores do interior da Bahia
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "localhost:3000"
 
-# User settings
-username: Mauricio Urraco
-user_description: I'm a nomad Software Engineer, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in the <b>crypto-world</b> working for Radix, a London based startup trying to create the next massive scalable DLT.. I'm one of the two guys behind all the JS related stuff. Visit my blog here":" <a href="https://mauriciourraco.com" target="_blank">https://mauriciourraco.com</a>
-user_title: Software Engineer
-email: mauriurraco@gmail.com
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+# Page settings
+titulo: Devfest Fsa 2019
+descricao: E aí... como tá?
+user_title:
+
+imagem: assets/background.png
+imagem_logo: assets/logoicone.png
+contato_email: leomachadoms@gmail.com
+contato_instagram: google.com
+contato_facebook: google.com
+
+sobre: aqui está o primeiro campo e tals. Coloco aqui sobre o evento...
+
+apoio:
+  - us:
+    nome: 1mj
+    imagem: assets/favicon.ico
+    texto: colé
+  - us:
+    nome: 2mj
+    imagem: assets/favicon.ico
+    texto: colé 2
+  - us:
+    nome: 3mj
+    imagem: assets/favicon.ico
+    texto: colé 2
+  - us:
+    nome: 4mj
+    imagem: assets/favicon.ico
+    texto: colé 2 
+  - us:
+    nome: 5mj
+    imagem: assets/favicon.ico
+    texto: colé 2 
+  - us:
+    nome: 6mj
+    imagem: assets/favicon.ico
+    texto: colé 2 
+
+# Palestrantes
+palestrantes:
+  - us:
+    nome: mmj
+    imagem: assets/favicon.ico
+    texto: colé
+  - us:
+    nome: 2mj
+    imagem: assets/favicon.ico
+    texto: colé 2
+  - us:
+    nome: 3mj
+    imagem: assets/favicon.ico
+    texto: colé 2 
+  - us:
+    nome: 4mj
+    imagem: assets/favicon.ico
+    texto: colé 2 
+  - us:
+    nome: 5mj
+    imagem: assets/favicon.ico
+    texto: colé 2 
+  - us:
+    nome: 6mj
+    imagem: assets/favicon.ico
+    texto: colé 2 
+  - us:
+    nome: 7mj
+    imagem: assets/favicon.ico
+    texto: colé 3
+
+
 
 # Google-analytics
 google-analytics:

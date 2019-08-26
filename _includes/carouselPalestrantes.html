@@ -1,0 +1,68 @@
+<!--Carousel Wrapper-->
+<div class="container">
+    <h1 style="text-align: center">Palestrantes</h1>
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+        <!--Controls>
+    <div class="controls-top">
+        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="icon fa fa-chevron-left"></i></a>
+        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="icon fa fa-chevron-right"></i></a>
+    </div>
+    <!--/.Controls-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+            <span class="icon fa fa-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+            <span class="icon fa fa-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+            <li data-target="#multi-item-example" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+                <div class="row">
+                    {% assign f = 0 %}
+                    {% for i in site.palestrantes%}
+                    <div class="col-md-3">
+                        <div class="card mb-2">
+                            <img class="card-img-top" src="{{ i.imagem }}" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">{{ i.nome }}</h4>
+                                <p class="card-text"> {{i.texto}} </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% assign f = f| plus: 1 %}
+                    {% if f == 4 %}
+
+                </div>
+            </div>
+            {% assign f = 0 %}
+            <div class="carousel-item">
+                <div class="row">
+                    {% endif %}
+                    {% endfor %}
+
+                </div>
+            </div>
+
+        </div>
+        <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+</div>

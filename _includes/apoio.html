@@ -1,0 +1,14 @@
+<h1 style="text-align: center">Apoio</h1>
+
+
+  <div class="user">
+    {% for i in site.apoio %}
+   
+    <div class="tech">
+      <h2>{{i.nome}}</h2>
+      <img src="{{ i.imagem }}" alt="">
+      <p>{{ i.texto }}</p>
+    </div>
+    
+    {% endfor %}
+  </div>
