@@ -4,9 +4,9 @@ description: Maior evento de desenvolvedores do interior da Bahia
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "localhost:3000"
 
-# Page settings
+# Configurações da Página
 titulo: Devfest Fsa 2019
-descricao: E aí... como tá?
+descricao: DEV Feira de Sanatana
 user_title:
 
 imagem: assets/background.png
@@ -15,64 +15,69 @@ contato_email: leomachadoms@gmail.com
 contato_instagram: google.com
 contato_facebook: google.com
 
-sobre: aqui está o primeiro campo e tals. Coloco aqui sobre o evento...
+# Sobre o Evento
+sobre: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi neque, fringilla vitae cursus nec, porta vitae eros. Aliquam facilisis molestie dui ac consequat. Duis et suscipit ipsum. Suspendisse potenti. Etiam suscipit ornare mi. Praesent porta posuere sapien eu aliquam. Curabitur vestibulum consequat nibh, at rhoncus turpis. Aliquam rhoncus metus in lorem suscipit congue. Phasellus non ante ipsum. Pellentesque vel diam dui. Donec dapibus mattis lorem, non ullamcorper arcu scelerisque nec. In euismod nulla a libero interdum sagittis. Vestibulum ultrices semper lacus, in tempor lorem maximus eu. Suspendisse posuere orci in ipsum congue, a elementum tortor semper. Vestibulum eget ipsum vel purus posuere placerat. Nam mattis eros a tincidunt bibendum. Pellentesque faucibus metus vitae dui varius bibendum. Etiam sed pellentesque felis. Aliquam a tortor ut sem fermentum pulvinar. Integer bibendum massa id tellus tempor consequat. Integer et mollis augue, id convallis lorem. Nam iaculis egestas diam nec iaculis. Curabitur a finibus tellus, at tempus lacus. Maecenas eget lectus sed enim ultricies rutrum nec at quam. Maecenas posuere volutpat facilisis. Integer sed consectetur mi.
+
+# Patrocinadores
+patrocinadores:
+  - us:
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    texto:
+  - us:
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    texto:
+# Apoio
 
 apoio:
   - us:
-    nome: 1mj
-    imagem: assets/favicon.ico
-    texto: colé
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    texto:
   - us:
-    nome: 2mj
-    imagem: assets/favicon.ico
-    texto: colé 2
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    texto:
   - us:
-    nome: 3mj
-    imagem: assets/favicon.ico
-    texto: colé 2
-  - us:
-    nome: 4mj
-    imagem: assets/favicon.ico
-    texto: colé 2 
-  - us:
-    nome: 5mj
-    imagem: assets/favicon.ico
-    texto: colé 2 
-  - us:
-    nome: 6mj
-    imagem: assets/favicon.ico
-    texto: colé 2 
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    texto:
 
 # Palestrantes
 palestrantes:
   - us:
-    nome: mmj
-    imagem: assets/favicon.ico
-    texto: colé
+    nome: Lorena Alguma-Coisa
+    imagem: assets/palestrantes/lorena.jpg
+    texto: Empresa foda aí
+  - us:
+    nome: Lorena Alguma-Coisa
+    imagem: assets/palestrantes/lorena.jpg
+    texto: Empresa foda aí
+  - us:
+    nome: Lorena Alguma-Coisa
+    imagem: assets/palestrantes/lorena.jpg
+    texto: Empresa foda aí
   - us:
     nome: 2mj
-    imagem: assets/favicon.ico
+    imagem: assets/palestrantes/ruanderson.jpg
     texto: colé 2
   - us:
     nome: 3mj
-    imagem: assets/favicon.ico
+    imagem: assets/palestrantes/marilia.jpg
     texto: colé 2 
   - us:
     nome: 4mj
-    imagem: assets/favicon.ico
+    imagem: assets/palestrantes/rodrigoalves.jpg
     texto: colé 2 
   - us:
     nome: 5mj
     imagem: assets/favicon.ico
-    texto: colé 2 
+    texto: colé 2
   - us:
-    nome: 6mj
+    nome: 5mj
     imagem: assets/favicon.ico
-    texto: colé 2 
-  - us:
-    nome: 7mj
-    imagem: assets/favicon.ico
-    texto: colé 3
+    texto: colé 2
 
 
 

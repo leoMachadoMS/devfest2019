@@ -25,7 +25,6 @@
         <ol class="carousel-indicators">
             <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
             <li data-target="#multi-item-example" data-slide-to="1"></li>
-            <li data-target="#multi-item-example" data-slide-to="2"></li>
         </ol>
         <!--/.Indicators-->
 
@@ -37,16 +36,6 @@
                 <div class="row">
                     {% assign f = 0 %}
                     {% for i in site.palestrantes%}
-                    <div class="col-md-3">
-                        <div class="card mb-2">
-                            <img class="card-img-top" src="{{ i.imagem }}" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">{{ i.nome }}</h4>
-                                <p class="card-text"> {{i.texto}} </p>
-                            </div>
-                        </div>
-                    </div>
-                    {% assign f = f| plus: 1 %}
                     {% if f == 4 %}
 
                 </div>
@@ -55,6 +44,17 @@
             <div class="carousel-item">
                 <div class="row">
                     {% endif %}
+                    <div class="col-md-3">
+                        <div class="card mb-2" style="width: 100%">
+                            <img class="card-img-top" src="{{ i.imagem }}" alt="{{i.nome}}" style="height: 100%;">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">{{ i.nome }}</h3>
+                                <p class="card-text text-center"> {{i.texto}} </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% assign f = f| plus: 1 %}
+
                     {% endfor %}
 
                 </div>

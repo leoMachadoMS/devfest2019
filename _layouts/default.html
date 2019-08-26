@@ -20,22 +20,28 @@
     {% include about.html %}
   </section>
 
-  <section id="apoio">
-    <br>
-      {% include apoio.html %}
-  </section>
-
   <section id="palestrantes">
     <br>
-      {% include carouselPalestrantes.html %}
+    {% include carouselPalestrantes.html %}
   </section>
+
+  <section class="mr-5 ml-5 " id="patrocinadores">
+    <br>
+    {% include patrocinadores.html %}
+  </section>
+  
+  <section class="mr-5 ml-5 " id="apoio">
+    <br>
+    {% include apoio.html %}
+  </section>
+
   {{ content }}
   <section id="contato">
     <br>
-      {% include contato.html %}
+    {% include contato.html %}
   </section>
 
-  
+
   {% include footer.html %}
 
 
