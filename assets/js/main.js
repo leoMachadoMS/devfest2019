@@ -1,3 +1,20 @@
+$('#exampleModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget) // Button that triggered the modal
+    var nome = button.data('nome') // Extract info from data-* attributes
+    var vinculo = button.data('vinculo')
+    var texto = button.data('texto')
+    var img = button.data('imagem')
+    // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+    // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+    var modal = $(this)
+    modal.find('.modal-title').text(nome)
+    modal.find('.modal-subtitle').text(vinculo)
+    $(".modal-body").empty()
+    $(".modal-text").empty()
+    modal.find('.modal-body').append('<img src=" ' + img + '" alt="' + nome + '">')
+    modal.find('.modal-text').append('<p>' + texto + '</p>')
+})
+
 document.addEventListener("DOMContentLoaded", function () {
     new SweetScroll({});
     particlesJS("particles-js", {

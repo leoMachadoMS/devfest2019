@@ -49,34 +49,42 @@ palestrantes:
   - us:
     nome: Lorena Alguma-Coisa
     imagem: assets/palestrantes/lorena.jpg
+    vinculo: Loucura
+    texto: kjfhanejrhiu whbkjcfbwkjchnlkngkjh brjhabg fnjernqcfhnwrqngfufyegqnufgn ewaubnfuywrqbnfcukyenknryufcbnuebfcunyb g
+  - us:
+    nome: Lorena Alguma-Coisa
+    imagem: assets/palestrantes/lorena.jpg
+    vinculo: Loucura
     texto: Empresa foda aí
   - us:
     nome: Lorena Alguma-Coisa
     imagem: assets/palestrantes/lorena.jpg
-    texto: Empresa foda aí
-  - us:
-    nome: Lorena Alguma-Coisa
-    imagem: assets/palestrantes/lorena.jpg
+    vinculo: Loucura
     texto: Empresa foda aí
   - us:
     nome: 2mj
     imagem: assets/palestrantes/ruanderson.jpg
+    vinculo: Loucura
     texto: colé 2
   - us:
     nome: 3mj
     imagem: assets/palestrantes/marilia.jpg
+    vinculo: Loucura
     texto: colé 2 
   - us:
     nome: 4mj
     imagem: assets/palestrantes/rodrigoalves.jpg
+    vinculo: Loucura
     texto: colé 2 
   - us:
     nome: 5mj
     imagem: assets/favicon.ico
+    vinculo: Loucura
     texto: colé 2
   - us:
     nome: 5mj
     imagem: assets/favicon.ico
+    vinculo: Loucura
     texto: colé 2
 
 

@@ -46,10 +46,15 @@
             </li>
             <a class="nav-link text-light" href="#apoio">Apoio</a>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link text-light" href="#contato">Contato</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#venda">
+                    <h5>Compre já seu ingresso</h5>
+                </a>
+            </li>
+
         </ul>
     </div>
 </nav>
@@ -78,21 +83,53 @@
  
   </section>
 
+
   <section id="palestrantes">
     <br>
     <!--Carousel Wrapper-->
-<div class="container">
-    <h1 style="text-align: center">Palestrantes</h1>
-    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
-        <!--Controls>
-    <div class="controls-top">
-        <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="icon fa fa-chevron-left"></i></a>
-        <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="icon fa fa-chevron-right"></i></a>
+
+<!-- Modal -->
+<div style="background-image: url(./assets/background2.png);background-attachment: fixed;">
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-center">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body"></div>
+                <h3 class="modal-title text-center col-md-12" id="exampleModalLabel"></h3>
+                <h4 class="modal-subtitle text-center"></h4>
+                <div class="modal-text text-justify"></div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
     </div>
-    <!--/.Controls-->
 
-        <!--Controls-->
+    <img src="" alt="">
+    <div class="container">
+
+        <h1 style="text-align: center">Palestrantes</h1>
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+            <!--Controls->
+            <div class="controls-top">
+                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i
+                        class="icon fa fa-chevron-left"></i></a>
+                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                        class="icon fa fa-chevron-right"></i></a>
+            </div>
+
+            <!--/.Controls-->
+
+            <!--Controls-->
         <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
             <span class="icon fa fa-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -103,141 +140,206 @@
         </a>
         <!--/.Controls-->
 
-        <!--Indicators-->
+            <!--Indicators->
         <ol class="carousel-indicators">
             <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
             <li data-target="#multi-item-example" data-slide-to="1"></li>
         </ol>
         <!--/.Indicators-->
 
-        <!--Slides-->
-        <div class="carousel-inner" role="listbox">
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
 
-            <!--First slide-->
-            <div class="carousel-item active">
-                <div class="row">
-                    
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/palestrantes/lorena.jpg" alt="Lorena Alguma-Coisa" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Lorena Alguma-Coisa</h3>
-                                <p class="card-text text-center"> Empresa foda aí </p>
-                            </div>
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <div class="row">
+                        
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="kjfhanejrhiu whbkjcfbwkjchnlkngkjh brjhabg fnjernqcfhnwrqngfufyegqnufgn ewaubnfuywrqbnfcukyenknryufcbnuebfcunyb g" data-nome="Lorena Alguma-Coisa"
+                                data-imagem=assets/palestrantes/lorena.jpg>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/lorena.jpg" alt="Lorena Alguma-Coisa"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Lorena Alguma-Coisa</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    
 
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/palestrantes/lorena.jpg" alt="Lorena Alguma-Coisa" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Lorena Alguma-Coisa</h3>
-                                <p class="card-text text-center"> Empresa foda aí </p>
-                            </div>
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="Empresa foda aí" data-nome="Lorena Alguma-Coisa"
+                                data-imagem=assets/palestrantes/lorena.jpg>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/lorena.jpg" alt="Lorena Alguma-Coisa"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Lorena Alguma-Coisa</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    
 
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/palestrantes/lorena.jpg" alt="Lorena Alguma-Coisa" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">Lorena Alguma-Coisa</h3>
-                                <p class="card-text text-center"> Empresa foda aí </p>
-                            </div>
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="Empresa foda aí" data-nome="Lorena Alguma-Coisa"
+                                data-imagem=assets/palestrantes/lorena.jpg>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/lorena.jpg" alt="Lorena Alguma-Coisa"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Lorena Alguma-Coisa</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    
 
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/palestrantes/ruanderson.jpg" alt="2mj" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">2mj</h3>
-                                <p class="card-text text-center"> colé 2 </p>
-                            </div>
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="colé 2" data-nome="2mj"
+                                data-imagem=assets/palestrantes/ruanderson.jpg>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/ruanderson.jpg" alt="2mj"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">2mj</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
+
+
+                        
+
+                        
+                        
+
                     </div>
-                    
-
-                    
-                    
-
                 </div>
+                
+                <div class="carousel-item">
+                    <div class="row">
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="colé 2" data-nome="3mj"
+                                data-imagem=assets/palestrantes/marilia.jpg>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/marilia.jpg" alt="3mj"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">3mj</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="colé 2" data-nome="4mj"
+                                data-imagem=assets/palestrantes/rodrigoalves.jpg>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/rodrigoalves.jpg" alt="4mj"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">4mj</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="colé 2" data-nome="5mj"
+                                data-imagem=assets/favicon.ico>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/favicon.ico" alt="5mj"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">5mj</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Loucura" data-texto="colé 2" data-nome="5mj"
+                                data-imagem=assets/favicon.ico>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/favicon.ico" alt="5mj"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">5mj</h3>
+                                        <p class="card-text text-center"> Loucura </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+
+                    </div>
+                </div>
+
             </div>
+            <!--/.Slides-->
             
-            <div class="carousel-item">
-                <div class="row">
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/palestrantes/marilia.jpg" alt="3mj" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">3mj</h3>
-                                <p class="card-text text-center"> colé 2 </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/palestrantes/rodrigoalves.jpg" alt="4mj" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">4mj</h3>
-                                <p class="card-text text-center"> colé 2 </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/favicon.ico" alt="5mj" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">5mj</h3>
-                                <p class="card-text text-center"> colé 2 </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    
-                    
-                    <div class="col-md-3">
-                        <div class="card mb-2" style="width: 100%">
-                            <img class="card-img-top" src="assets/favicon.ico" alt="5mj" style="height: 100%;">
-                            <div class="card-body">
-                                <h3 class="card-title text-center">5mj</h3>
-                                <p class="card-text text-center"> colé 2 </p>
-                            </div>
-                        </div>
-                    </div>
-                    
-
-                    
-
-                </div>
-            </div>
-
         </div>
-        <!--/.Slides-->
-
+        <!--/.Carousel Wrapper-->
     </div>
-    <!--/.Carousel Wrapper-->
 </div>
   </section>
 
@@ -266,7 +368,7 @@
   
 </div>
   </section>
-  
+
   <section class="mr-5 ml-5 " id="apoio">
     <br>
     <h1 style="text-align: center">Apoio</h1>
@@ -305,19 +407,33 @@
 
   
 
+
   <section id="contato">
     <br>
-    
-<div class="container">
-<h1 class="text-center">Contato</h1>
-<div class="header-icons">
-        <a aria-label="Send email" href="leomachadoms@gmail.com"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Instagram" target="_blank" href="google.com"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
-        <a aria-label="My Facebook" target="_blank" href="google.com"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
-      </div>
+    <div style="background-color:rgb(92, 143, 245)">
+  <div class="container">
+    <h1 class="text-center text-light">Contato</h1>
+    <div class="header-icons">
+      <a aria-label="Send email" href="leomachadoms@gmail.com"><i class="icon fa fa-envelope"></i></a>
+      <a aria-label="My Instagram" target="_blank" href="google.com"><i class="icon fa fa-instagram"
+          aria-hidden="true"></i></a>
+      <a aria-label="My Facebook" target="_blank" href="google.com"><i class="icon fa fa-facebook"
+          aria-hidden="true"></i></a>
+    </div>
+  </div>
+  <br>
+  <br>
 </div>
   </section>
 
+  <section id="venda">
+    <div style="background-image: url(./assets/background2.png);background-attachment: fixed;">
+    <br>
+    <h1 class="text-center">Compre já seu ingresso!</h1>
+    <div id="sympla-widget-614974" height="auto"></div>
+    <script src="https://www.sympla.com.br/js/sympla.widget-pt.js/614974"></script>
+</div>
+  </section>
 
   <footer class="footer">
     <!-- <p>&copy; </p> -->
@@ -336,9 +452,6 @@
 ga('create', '', 'auto');
 ga('send', 'pageview');
 </script>
-
-
-
 
 
 
