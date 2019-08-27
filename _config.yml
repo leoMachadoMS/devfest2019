@@ -23,26 +23,26 @@ patrocinadores:
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    texto:
+    link: http://www.google.com
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    texto:
+    link: http://www.google.com
 # Apoio
 
 apoio:
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    texto:
+    link:
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    texto:
+    link:
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    texto:
+    link:
 
 # Palestrantes
 palestrantes:
