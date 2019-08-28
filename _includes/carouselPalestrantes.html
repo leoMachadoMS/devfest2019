@@ -1,8 +1,11 @@
 <!--Carousel Wrapper-->
 
 
-<!-- Modal -->
-<div style="background-image: url(./assets/background2.png);background-attachment: fixed;">
+
+<div style="background-image: url({{site.imagem_conteudo}});background-attachment: fixed;">
+    
+    
+    <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -41,11 +44,11 @@
             <!--/.Controls-->
 
             <!--Controls-->
-        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev" style="margin-left: -15%">
+        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev" style="margin-left: -10%; width: 120px">
             <span class="icon fa fa-chevron-left text-info" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next" style="margin-right: -15%">
+        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next" style="margin-right: -10%; width: 120px">
             <span class="icon fa fa-chevron-right text-info" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -72,7 +75,7 @@
                 </div>
                 {% assign f = 0 %}
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         {% endif %}
 
                         <div class="col-md-3">

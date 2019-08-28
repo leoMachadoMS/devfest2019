@@ -11,9 +11,17 @@ user_title:
 
 imagem: assets/background.png
 imagem_logo: assets/logoicone.png
-contato_email: leomachadoms@gmail.com
-contato_instagram: google.com
-contato_facebook: google.com
+imagem_conteudo: assets/background2.png
+
+link_codconduta: https://www.instagram.com/gdgfsaba/?hl=pt
+link_subpalestra: https://www.facebook.com/gdgfsaba/
+link_venda: https://www.sympla.com.br/gdg-devfest-fsa-2019__614974
+
+contato_email: gdgfsaba@gmail.com
+contato_instagram: https://www.instagram.com/gdgfsaba/?hl=pt
+contato_facebook: https://www.facebook.com/gdgfsaba/
+
+cor_padrao: rgb(92, 143, 245)
 
 # Sobre o Evento
 sobre: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi neque, fringilla vitae cursus nec, porta vitae eros. Aliquam facilisis molestie dui ac consequat. Duis et suscipit ipsum. Suspendisse potenti. Etiam suscipit ornare mi. Praesent porta posuere sapien eu aliquam. Curabitur vestibulum consequat nibh, at rhoncus turpis. Aliquam rhoncus metus in lorem suscipit congue. Phasellus non ante ipsum. Pellentesque vel diam dui. Donec dapibus mattis lorem, non ullamcorper arcu scelerisque nec. In euismod nulla a libero interdum sagittis. Vestibulum ultrices semper lacus, in tempor lorem maximus eu. Suspendisse posuere orci in ipsum congue, a elementum tortor semper. Vestibulum eget ipsum vel purus posuere placerat. Nam mattis eros a tincidunt bibendum. Pellentesque faucibus metus vitae dui varius bibendum. Etiam sed pellentesque felis. Aliquam a tortor ut sem fermentum pulvinar. Integer bibendum massa id tellus tempor consequat. Integer et mollis augue, id convallis lorem. Nam iaculis egestas diam nec iaculis. Curabitur a finibus tellus, at tempus lacus. Maecenas eget lectus sed enim ultricies rutrum nec at quam. Maecenas posuere volutpat facilisis. Integer sed consectetur mi.
@@ -23,34 +31,29 @@ patrocinadores:
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    link: http://www.google.com
+    link: https://www.instagram.com/mandacaruhs/
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    link: http://www.google.com
+    link: https://www.instagram.com/mandacaruhs/
 # Apoio
 
 apoio:
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    link:
+    link: https://www.instagram.com/mandacaruhs/
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    link:
+    link: https://www.instagram.com/mandacaruhs/
   - us:
     nome: Mandacaru Hackerspace
     imagem: assets/apoio/LogoVer.png
-    link:
+    link: https://www.instagram.com/mandacaruhs/
 
 # Palestrantes
 palestrantes:
-  - us:
-    nome: Fábio Bispo
-    imagem: assets/palestrantes/fabio.png
-    vinculo: Mandacaru Hackerspace
-    texto: Sou CEO do Mandacaru Hackerspace. Procuro meios de invadir a conta do telegram do Ministro da Justiça. Fogo nos racistas!
   - us:
     nome: Marcelo Bião
     imagem: assets/palestrantes/marcelo.png
@@ -71,8 +74,11 @@ palestrantes:
     imagem: assets/palestrantes/leonardo.png
     vinculo: Mandacaru Hackerspace
     texto: Sou Master arteiro do Mandacaru Hackerspace. Sou o maior nome representante do terraplanismo no globo. 
-
-
+  - us:
+    nome: Fábio Bispo
+    imagem: assets/palestrantes/fabio.png
+    vinculo: Mandacaru Hackerspace
+    texto: Sou CEO do Mandacaru Hackerspace. Procuro meios de invadir a conta do telegram do Ministro da Justiça. Fogo nos racistas!
 
 # Google-analytics
 google-analytics:

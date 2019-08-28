@@ -19,8 +19,13 @@
     <br>
     {% include about.html %}
   </section>
-
-
+  
+  {% include codigoConduta.html %}
+  {% include submeterPalestra.html %}
+  
+  <section id="venda">
+      {% include venda.html %}
+    </section>
   <section id="palestrantes">
     <br>
     {% include carouselPalestrantes.html %}
@@ -38,14 +43,6 @@
 
   {{ content }}
 
-  <section id="contato">
-    <br>
-    {% include contato.html %}
-  </section>
-
-  <section id="venda">
-    {% include venda.html %}
-  </section>
 
   {% include footer.html %}
 </body>
