@@ -25,7 +25,6 @@
         </div>
     </div>
 
-    <img src="" alt="">
     <div class="container">
 
         <h1 style="text-align: center">Palestrantes</h1>
@@ -42,12 +41,12 @@
             <!--/.Controls-->
 
             <!--Controls-->
-        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
-            <span class="icon fa fa-chevron-left" aria-hidden="true"></span>
+        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev" style="margin-left: -15%">
+            <span class="icon fa fa-chevron-left text-info" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
-            <span class="icon fa fa-chevron-right" aria-hidden="true"></span>
+        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next" style="margin-right: -15%">
+            <span class="icon fa fa-chevron-right text-info" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
         <!--/.Controls-->
@@ -77,7 +76,7 @@
                         {% endif %}
 
                         <div class="col-md-3">
-                            <a style="text-decoration: none" data-toggle="modal" data-target="#exampleModal"
+                            <a class="card-link" data-toggle="modal" data-target="#exampleModal"
                                 data-vinculo="{{i.vinculo}}" data-texto="{{i.texto}}" data-nome="{{i.nome}}"
                                 data-imagem={{i.imagem}}>
                                 <div class="card mb-2" style="width: 100%">
@@ -85,7 +84,7 @@
                                         style="height: 100%;">
                                     <div class="card-body">
                                         <h3 class="card-title text-center">{{ i.nome }}</h3>
-                                        <p class="card-text text-center"> {{i.vinculo}} </p>
+                                        <p class="card-subtitle text-center"> {{i.vinculo}} </p>
                                     </div>
                                 </div>
                             </a>

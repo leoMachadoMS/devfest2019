@@ -47,45 +47,30 @@ apoio:
 # Palestrantes
 palestrantes:
   - us:
-    nome: Lorena Alguma-Coisa
-    imagem: assets/palestrantes/lorena.jpg
-    vinculo: Loucura
-    texto: kjfhanejrhiu whbkjcfbwkjchnlkngkjh brjhabg fnjernqcfhnwrqngfufyegqnufgn ewaubnfuywrqbnfcukyenknryufcbnuebfcunyb g
+    nome: Fábio Bispo
+    imagem: assets/palestrantes/fabio.png
+    vinculo: Mandacaru Hackerspace
+    texto: Sou CEO do Mandacaru Hackerspace. Procuro meios de invadir a conta do telegram do Ministro da Justiça. Fogo nos racistas!
   - us:
-    nome: Lorena Alguma-Coisa
-    imagem: assets/palestrantes/lorena.jpg
-    vinculo: Loucura
-    texto: Empresa foda aí
+    nome: Marcelo Bião
+    imagem: assets/palestrantes/marcelo.png
+    vinculo: Mandacaru Hackerspace
+    texto: Sou Master das culinárias do Mandacaru Hackerspace. Faço um ótimo arroz com calabresa, mas esqueço na geladeira por uma semana. 
   - us:
-    nome: Lorena Alguma-Coisa
-    imagem: assets/palestrantes/lorena.jpg
-    vinculo: Loucura
-    texto: Empresa foda aí
+    nome: Sérgio Matos
+    imagem: assets/palestrantes/sergio.png
+    vinculo: Mandacaru Hackerspace
+    texto: Sou Master dos paranauês do Mandacaru Hackerspace. De vez em quando, eu esqueço de enviar a arte dos eventos.
   - us:
-    nome: 2mj
-    imagem: assets/palestrantes/ruanderson.jpg
-    vinculo: Loucura
-    texto: colé 2
+    nome: Vitor Cardim
+    imagem: assets/palestrantes/vitor.png
+    vinculo: Mandacaru Hackerspace
+    texto: Sou Master of Cards do Mandacaru Hackerspace. Comi uma pizza de 3 queijos, fui procurar o banheiro e acabei parando em Uberlândia.
   - us:
-    nome: 3mj
-    imagem: assets/palestrantes/marilia.jpg
-    vinculo: Loucura
-    texto: colé 2 
-  - us:
-    nome: 4mj
-    imagem: assets/palestrantes/rodrigoalves.jpg
-    vinculo: Loucura
-    texto: colé 2 
-  - us:
-    nome: 5mj
-    imagem: assets/favicon.ico
-    vinculo: Loucura
-    texto: colé 2
-  - us:
-    nome: 5mj
-    imagem: assets/favicon.ico
-    vinculo: Loucura
-    texto: colé 2
+    nome: Leo Melo
+    imagem: assets/palestrantes/leonardo.png
+    vinculo: Mandacaru Hackerspace
+    texto: Sou Master arteiro do Mandacaru Hackerspace. Sou o maior nome representante do terraplanismo no globo. 
 
 
 
