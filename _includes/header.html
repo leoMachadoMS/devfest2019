@@ -1,13 +1,19 @@
 <div id="particles-js" style="background-image: url({{ site.imagem }})">
   <div class="header">
-      <h1>
-        <span class="site-title">{% if site.imagem %}  {%else%}{{ site.nome}}{% endif %}</span>
-        <span class="site-description">{% if site.imagem %}  {%else%}{{ site.descricao}}{% endif %}</span>
-      </h1>
-      
-      <div class="header-links">
-        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
-      </div>
+    {% if site.imagem_logo_principal %}
+    <div  class="mt-5">
+      <img class="img-fluid" src="{{site.imagem_logo_principal}}" alt="{{site.nome}}" style="min-width: 300px">
+    </div>
+    {% endif %}
+
+    <h1>
+      <span class="site-title">{% if site.imagem_logo_principal %} {%else%}{{ site.nome}}{% endif %}</span>
+      <span class="site-description">{% if site.imagem_logo_principal %} {%else%}{{ site.descricao}}{% endif %}</span>
+    </h1>
+
+    <div class="header-links">
+      <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
+    </div>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
