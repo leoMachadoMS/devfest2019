@@ -1,13 +1,13 @@
-<footer class="footer" style="background-color: {{site.cor_padrao}}">
+<footer class="footer row" style="width: 100% ; background-color: {{site.cor_padrao}}">
     <!-- <p>&copy; {{ site.username }}</p> -->
-    <div class="header-icons">
+    <div class="header-icons col-4 offset-4">
         <a aria-label="Send email" href="mailto: {{ site.contato_email }}"><i class="icon fa fa-envelope"></i></a>
         <a aria-label="My Instagram" target="_blank" href="{{ site.contato_instagram }}"><i class="icon fa fa-instagram"
                 aria-hidden="true"></i></a>
         <a aria-label="My Facebook" target="_blank" href="{{ site.contato_facebook }}"><i class="icon fa fa-facebook"
                 aria-hidden="true"></i></a>
     </div>
-    <p>Build with Jekyll and <span class="love">❤</span> by Leo Melo</p>
+    <p class="col-4 text-center d-none d-md-block">Build with Jekyll by Leo Melo</p>
 
 </footer>
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
