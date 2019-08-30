@@ -16,33 +16,28 @@
   {% include navbar.html %}
   {% include header.html %}
   <section id="about">
-    <br>
     {% include about.html %}
   </section>
-  
+
   {% include codigoConduta.html %}
   {% include submeterPalestra.html %}
-  
+
   <section id="venda">
-      {% include venda.html %}
-    </section>
+    {% include venda.html %}
+  </section>
   <section id="palestrantes">
-    <br>
     {% include carouselPalestrantes.html %}
   </section>
 
   <section class="mr-5 ml-5 " id="patrocinadores">
-    <br>
     {% include patrocinadores.html %}
   </section>
 
   <section class="mr-5 ml-5 " id="apoio">
-    <br>
     {% include apoio.html %}
   </section>
 
   {{ content }}
-
 
   {% include footer.html %}
 </body>
